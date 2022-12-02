@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Anek Devanagari", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #222;
+}
+
+img {
+  width: 300px;
+  border-radius: 5px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+  background-image: linear-gradient(to top, #222, #555);
+}
+
+#group {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+#titles {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+}
+
+#titles h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+#playlist {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+#buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#button_pause {
+  background-color: #4cd760;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+#button_random_order {
+  background-image: linear-gradient(#4cd760, #4cd780);
+  background-color: #4cd760;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-weight: bold;
+  border-radius: 50px;
+  margin-right: 10px;
+  display: none;
+}
+
+#button_pause:hover {
+  cursor: pointer;
+  background-color: #4cd780;
+}
+
+ion-icon {
+  font-size: 32px;
+}
+
+ion-icon:hover {
+  cursor: pointer;
+}
+
+#followers {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  padding-right: 25px;
+}
+
+#followers p {
+  color: #bbb;
+  font-weight: bold;
+  text-shadow: #ddd 1px 0 10px;
+}
+
+#first_section {
+  padding-top: 25px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#divider {
+  border: 0;
+  border-top: 0.25px solid #bbb;
+}
+
+#musics {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+
+#like {
+  margin-right: 15px;
+}
+
+#hashtag {
+  margin-right: 15px;
+}
+
+#like_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#playlist_responsive {
+  display: none;
+}
+
+#button_more_musics {
+  border: 1px solid white;
+  border-radius: 25px;
+  background-color: #222;
+  padding: 12px;
+  margin-top: 10px;
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  #first_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+  }
+
+  #titles {
+    height: 100px;
+  }
+
+  #titles h1 {
+    font-size: 30px;
+  }
+
+  #group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #button_pause {
+    display: none;
+  }
+
+  #button_random_order {
+    display: inline-block;
+  }
+
+  #button_options {
+    display: none;
+  }
+
+  #playlist_title {
+    display: none;
+  }
+
+  #followers {
+    display: none;
+  }
+
+  #playlist {
+    display: none;
+  }
+
+  #playlist_responsive {
+    display: inline-block;
+  }
+
+  #album_title {
+    display: none;
+  }
+
+  #calendar_title {
+    display: none;
+  }
+
+  #time_title {
+    display: none;
+  }
+
+  #album {
+    display: none;
+  }
+
+  #calendar {
+    display: none;
+  }
+
+  #time {
+    display: none;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #555;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+
+  #footer_item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #button_more_musics {
+    display: inline-block;
+  }
+}
