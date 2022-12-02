@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "thin";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-Thin.ttf);
+}
+
+@font-face {
+  font-family: "regular";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-Regular.ttf);
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-Bold.ttf);
+}
+
+@font-face {
+  font-family: "light";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-Light.ttf);
+}
+
+@font-face {
+  font-family: "medium";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-Medium.ttf);
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url(..fonts/AnekDevanagari/AnekDevanagari-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "extrabold";
+  src: url(../fonts/AnekDevanagari/AnekDevanagari-ExtraBold.ttf);
+}
